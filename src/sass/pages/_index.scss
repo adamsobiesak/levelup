@@ -1,0 +1,47 @@
+$icon: 16px;
+
+.logo {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    top: -25px;
+    border: 2px solid;
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    vertical-align: baseline;
+       
+}
+.media {
+    display: flex;
+    justify-content: space-between;
+}
+.socialmedia {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.socialmedia__icon {
+    height: $icon;
+    width: $icon;
+    margin:5px;
+}
+.dinks {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+}
+.dinks__item {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: initial;
+}

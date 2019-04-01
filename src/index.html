@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
 
 <head>
   <meta charset="UTF-8">
@@ -9,7 +9,6 @@
 <body>
   <script type="text/javascript" src="main.js"></script>
   <div class="page">
-    <div class=mainContent>
       <header>
         <div class = "logo">d'inks</div>
       </header>
@@ -24,36 +23,30 @@
                     <li><a href='#' class="list__item">Shot</a></li>
                     <li><a href='#' class="list__item">Punch / Party Drink</a></li>
                   </ul>
+                </nav>
       <main>
           <section class="dinks">
-                <div class="dinks__item">
-                    <img class="dinks__img" src="<%=require('./images/bijou.jpg')%>" alt="bijou"/>
+                <div class="dinks__item"><img class="dinks__img" src="<%=require('./images/bijou.jpg')%>" alt="bijou">
                 </div>
-                <div class="dinks__item">
-                    <img class="dinks__img" src="<%=require('./images/eggnogg.jpg')%>" alt="eggnogg"/>
+                <div class="dinks__item"><img class="dinks__img" src="<%=require('./images/eggnogg.jpg')%>" alt="eggnogg">
                 </div>
-                <div class="dinks__item">
-                    <img class="dinks__img" src="<%=require('./images/mojito.jpg')%>" alt="mojito"/>
+                <div class="dinks__item"><img class="dinks__img" src="<%=require('./images/mojito.jpg')%>" alt="mojito">
                 </div>
-                <div class="dinks__item">
-                    <img class="dinks__img" src="<%=require('./images/negroni.jpg')%>" alt="negroni"/>
+                <div class="dinks__item"><img class="dinks__img" src="<%=require('./images/negroni.jpg')%>" alt="negroni">
                 </div>
-                <div class="dinks__item">
-                    <img class="dinks__img" src="<%=require('./images/rattlesnake.jpg')%>" alt="rattlesnake"/>
+                <div class="dinks__item"> <img class="dinks__img" src="<%=require('./images/rattlesnake.jpg')%>" alt="rattlesnake">
                 </div>
-                <div class="dinks__item">
-                    <img class="dinks__img" src="<%=require('./images/zinger.jpg')%>" alt="zinger"/>
+                <div class="dinks__item"><img class="dinks__img" src="<%=require('./images/zinger.jpg')%>" alt="zinger">
                 </div>
             </section>  
       </main>
-    </div>
-    <footer>
+    <footer class="media">
             <p>Say hello! - hi@dinks.com</p>
-            <p>Follow us:
-                    <div class="social-media">
-                                <img class="social-media__icon" inline src="src/assets/dribble-logo.svg" alt="dribble"/>
-                                <img class="social-media__icon" inline src="src/assets/instagram-logo.svg" alt="instagram"/>
-                                <img class="social-media__icon" inline src="src/assets/facebook-logo.svg" alt="facebook"/>
+                    <div class="socialmedia">
+                                <p>Follow us:</p>
+                                <a href="dribbble.com"><img class="socialmedia__icon" inline src="<%=require('./images/dribbble.svg')%>" alt="dribbble">
+                                <a href="instagram.com"><img class="socialmedia__icon" inline src="<%=require('./images/instagram.png')%>" alt="instagram">
+                                <a href="facebook.com"><img class="socialmedia__icon" inline src="<%=require('./images/facebook.png')%>" alt="facebook">
                          
             </div>
     </footer>
