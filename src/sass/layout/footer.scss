@@ -1,0 +1,17 @@
+$icon: 20px;
+
+.media {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .socialmedia {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .socialmedia__icon {
+    height: $icon;
+    width: $icon;
+}
