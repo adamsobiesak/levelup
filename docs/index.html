@@ -3,64 +3,59 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Daftcode FrontendAS</title>
 </head>
 
 <body>
-<script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="main.js"></script>
   <div class="page">
-    <header class="header">
+    <div class=mainContent>
+      <header>
         <div class = "logo">d'inks</div>
-    </header>
-        <div class="container">
-        <nav class="menu">
-              <ul>
-                <li><a href='#' class='active'>Beer</a></li>
-                <li><a href='#'>Coffee/Tea</a></li>
-                <li><a href='#'>Cocktail</a></li>
-                <li><a href='#'>Cocoa</a></li>
-                <li><a href='#'>Milk/Float/Shake</a></li>
-                <li><a href='#'>Shot</a></li>
-                <li><a href='#'>Punch/Party Drink</a></li>
-              </ul>
-<li><a href='#'>Homemade Liqueur</a></li>
-</nav>
+      </header>
+      <div class="container">
+            <nav class="list">
+                  <ul>
+                    <li><a href='#' class='list__item list__item--active'>Beer</a></li>
+                    <li><a href='#' class="list__item">Coffee / Tea</a></li>
+                    <li><a href='#' class="list__item">Cocktail</a></li>
+                    <li><a href='#' class="list__item">Cocoa</a></li>
+                    <li><a href='#' class="list__item">Milk / Float / Shake</a></li>
+                    <li><a href='#' class="list__item">Shot</a></li>
+                    <li><a href='#' class="list__item">Punch / Party Drink</a></li>
+                  </ul>
       <main>
-          <figure class="drinkImg">
-              <img src="./img/bijou.jpg" alt="/bijou.jpg"/>
-              <figcaption class="drinkImg__caption">bijou</figcaption>
-          </figure>
-          <figure class="drinkImg">
-              <img src="../src/img/eggnogg.jpg" alt="eggnogg.jpg"/>
-              <figcaption>eggnog</figcaption>
-          </figure>
-          <figure class="drinkImg">
-              <img src="../src/img/mojito.jpg" alt="mojito.jpg"/>
-              <figcaption class="drinkImg__caption">mojito</figcaption>
-          </figure>
-          <figure class="drinkImg">
-              <img src="../src/img/negroni.jpg" alt="negroni.jpg"/>
-              <figcaption>negroni</figcaption>
-          <figure>
-            <figure class="drinkImg">
-              <img src="../src/img/rattlesnake.jpg" alt="rattlesnake.jpg"/>
-              <figcaption class="drinkImg__caption">rattlesnake</figcaption>
-          </figure>
-          <figure class="drinkImg">
-              <img src="../src/img/zinger.jpg" alt="zinger.jpg"/>
-              <figcaption class="drinkImg__caption">zinger</figcaption>
-          </figure>
-
+          <section class="dinks">
+                <div class="dinks__item">
+                    <img class="dinks__img" src="43b371d63832ba0270f859bb9e510199.jpg" alt="bijou"/>
+                </div>
+                <div class="dinks__item">
+                    <img class="dinks__img" src="101b52b99d9fcbbc854de58e04359fe5.jpg" alt="eggnogg"/>
+                </div>
+                <div class="dinks__item">
+                    <img class="dinks__img" src="1cf6850fc38021d1efa24eca2e9c8c8f.jpg" alt="mojito"/>
+                </div>
+                <div class="dinks__item">
+                    <img class="dinks__img" src="6733c1bc95b68e7309e4329bf4687620.jpg" alt="negroni"/>
+                </div>
+                <div class="dinks__item">
+                    <img class="dinks__img" src="1d1d8ebb5aed267f4142a8860cbae8e7.jpg" alt="rattlesnake"/>
+                </div>
+                <div class="dinks__item">
+                    <img class="dinks__img" src="2327579191b2b14e53735d0fb3237f03.jpg" alt="zinger"/>
+                </div>
+            </section>  
       </main>
     </div>
-    <footer class ="mainFooter">
-        <div class = "email">   </div>
-        <div class="socialMedia">
-            <div class = "socialMedia__item"></div>
-            <div class = "socialMedia__item"></div>
-            <div class = "socialMedia__item"></div>
-        </div>
+    <footer>
+            <p>Say hello! - hi@dinks.com</p>
+            <p>Follow us:
+                    <div class="social-media">
+                                <img class="social-media__icon" inline src="src/assets/dribble-logo.svg" alt="dribble"/>
+                                <img class="social-media__icon" inline src="src/assets/instagram-logo.svg" alt="instagram"/>
+                                <img class="social-media__icon" inline src="src/assets/facebook-logo.svg" alt="facebook"/>
+                         
+            </div>
     </footer>
   </div>
 <script type="text/javascript" src="main.js"></script></body>
