@@ -1,37 +1,22 @@
 .page {
     padding: 100px 100px 100px 100px;
-    &__wrapper {
-        background: cadetblue;
-    }
-} 
+    } 
 .logo {
     padding: 10px 40px;
     border: 2px solid black;
     display: inline-block;
     }
-
-.container {
-    margin: 0 auto;
-
-    .list {
+    .dinks_img {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin: 2px 0 50px 0;
-        
     }
-
-    .dinks {
+    .dinks_img {
       display: flex;
-      justify-content: center;
       flex-wrap: wrap;
-      width: 100%;
     }
       .dinks__item {
         box-sizing: border-box;
         display: flex;
-        justify-content: center;
         align-items: center;
       }
-    }
-        
