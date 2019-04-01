@@ -13,53 +13,49 @@
       <header>
         <div class = "logo">d'inks</div>
       </header>
-      <nav class = "mainNav">
-        <ul class = "mainNavlist">
-          <li class = "mainNavlist__item mainNavList__item--highlighted">Beer</li>
-          <li class = "mainNavList__item">Coffee / Tea</li>
-          <li class = "mainNavList__item">Cocktail</li>
-          <li class = "mainNavList__item">Cocoa</li>
-          <li class = "mainNavList__item">Milk/Float/Shake</li>
-          <li class = "mainNavList__item">Shot</li>
-          <li class = "mainNavList__item">Punch/Party/Drink</li>
-          <li class = "mainNavList__item">Homemade Liqueur</li>
-        </ul>
-      </nav>
+      <div class="container">
+            <nav class="list">
+                  <ul>
+                    <li><a href='#' class='list__item list__item--active'>Beer</a></li>
+                    <li><a href='#' class="list__item">Coffee / Tea</a></li>
+                    <li><a href='#' class="list__item">Cocktail</a></li>
+                    <li><a href='#' class="list__item">Cocoa</a></li>
+                    <li><a href='#' class="list__item">Milk / Float / Shake</a></li>
+                    <li><a href='#' class="list__item">Shot</a></li>
+                    <li><a href='#' class="list__item">Punch / Party Drink</a></li>
+                  </ul>
       <main>
-          <figure class="drinkImg">
-              <img src=".src/imgages/bijou.jpg" alt="/bijou.jpg"/>
-              <figcaption class="drinkImg__caption">bijou</figcaption>
-          </figure>
-          <figure class="drinkImg">
-              <img src="../src/imgages/eggnogg.jpg" alt="eggnogg.jpg"/>
-              <figcaption>eggnog</figcaption>
-          </figure>
-          <figure class="drinkImg">
-              <img src="../src/imgages/mojito.jpg" alt="mojito.jpg"/>
-              <figcaption class="drinkImg__caption">mojito</figcaption>
-          </figure>
-          <figure class="drinkImg">
-              <img src="../src/imgages/negroni.jpg" alt="negroni.jpg"/>
-              <figcaption>negroni</figcaption>
-          <figure>
-            <figure class="drinkImg">
-              <img src="../src/imgages/rattlesnake.jpg" alt="rattlesnake.jpg"/>
-              <figcaption class="drinkImg__caption">rattlesnake</figcaption>
-          </figure>
-          <figure class="drinkImg">
-              <img src="../src/imgages/zinger.jpg" alt="zinger.jpg"/>
-              <figcaption class="drinkImg__caption">zinger</figcaption>
-          </figure>
-
+          <section class="dinks">
+                <div class="dinks__item">
+                    <img class="dinks__img" src="<%=require('./images/bijou.jpg')%>" alt="bijou"/>
+                </div>
+                <div class="dinks__item">
+                    <img class="dinks__img" src="<%=require('./images/eggnogg.jpg')%>" alt="eggnogg"/>
+                </div>
+                <div class="dinks__item">
+                    <img class="dinks__img" src="<%=require('./images/mojito.jpg')%>" alt="mojito"/>
+                </div>
+                <div class="dinks__item">
+                    <img class="dinks__img" src="<%=require('./images/negroni.jpg')%>" alt="negroni"/>
+                </div>
+                <div class="dinks__item">
+                    <img class="dinks__img" src="<%=require('./images/rattlesnake.jpg')%>" alt="rattlesnake"/>
+                </div>
+                <div class="dinks__item">
+                    <img class="dinks__img" src="<%=require('./images/zinger.jpg')%>" alt="zinger"/>
+                </div>
+            </section>  
       </main>
     </div>
-    <footer class ="mainFooter">
-        <div class = "email">   </div>
-        <div class="socialMedia">
-            <div class = "socialMedia__item"></div>
-            <div class = "socialMedia__item"></div>
-            <div class = "socialMedia__item"></div>
-        </div>
+    <footer>
+            <p>Say hello! - hi@dinks.com</p>
+            <p>Follow us:
+                    <div class="social-media">
+                                <img class="social-media__icon" inline src="src/assets/dribble-logo.svg" alt="dribble"/>
+                                <img class="social-media__icon" inline src="src/assets/instagram-logo.svg" alt="instagram"/>
+                                <img class="social-media__icon" inline src="src/assets/facebook-logo.svg" alt="facebook"/>
+                         
+            </div>
     </footer>
   </div>
 </body>
