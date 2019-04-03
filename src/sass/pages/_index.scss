@@ -5,25 +5,40 @@
     padding: 10px 40px;
     border: 2px solid black;
     display: inline-block;
+    margin: 20px;
     }
 .container {
-    margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  padding: 10%;
+  background-color: #f2f2f2;
 }
-    .list {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin: 2px 0 50px 0;   
-    }
-    .dinks {
+.container nav a {
+  color: gray;
+  font-size: .6em;
+  margin-bottom: 30px;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__item {
+    color: firebrick;
+    text-decoration: none;
+}
+      }
+.dinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+    &__item {
+      box-sizing: border-box;
       display: flex;
       justify-content: center;
-      flex-wrap: wrap;
-      width: 100%;
+      -webkit-align-items: center;
+      align-items: center;
+      width: 300px;
+      height: 300px;
+      margin: 3px; 
     }
-      .dinks__item {
-        box-sizing: border-box;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
+}
